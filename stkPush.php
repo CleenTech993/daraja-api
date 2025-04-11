@@ -10,11 +10,11 @@ $Timestamp = date('YmdHis');
 $Password = base64_encode($BusinessShortCode . $passkey . $Timestamp);
 
 // ✅ Replace with a real phone number in international format without '+'
-$phone = '254723582705';
+$phone = '254768351367';
 $money = '1';
 $PartyA = $phone;
 $PartyB = '254794222657';
-$AccountReference = 'cleen technologies';
+$AccountReference = 'cleen Technologies';
 $TransactionDesc = 'stkpush test';
 $Amount = $money;
 
